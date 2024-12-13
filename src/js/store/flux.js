@@ -2,7 +2,7 @@ const getState = ({ getStore, getActions, setStore }) => {
 	return {
 		store: {
 			contacts: [],
-			agenda: "jason"  // TODO: Si no esta, crear agenda con este nombre en la api
+			agenda: "gisela"  // TODO: Si no esta, crear agenda con este nombre en la api
 		},
 		actions: {
 			getAgenda: () => {
